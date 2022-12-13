@@ -17,6 +17,8 @@
 		5D07E58B29482A4C00BFFCF1 /* Carousell_CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D07E58A29482A4C00BFFCF1 /* Carousell_CollectionViewTests.swift */; };
 		5D07E59529482A4C00BFFCF1 /* Carousell_CollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D07E59429482A4C00BFFCF1 /* Carousell_CollectionViewUITests.swift */; };
 		5D07E59729482A4C00BFFCF1 /* Carousell_CollectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D07E59629482A4C00BFFCF1 /* Carousell_CollectionViewUITestsLaunchTests.swift */; };
+		5D4E44CA2948465700F39582 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4E44C92948465700F39582 /* CollectionTableViewCell.swift */; };
+		5D4E44CC29484E5B00F39582 /* TileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4E44CB29484E5B00F39582 /* TileCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5D07E59029482A4C00BFFCF1 /* Carousell CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carousell CollectionViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D07E59429482A4C00BFFCF1 /* Carousell_CollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousell_CollectionViewUITests.swift; sourceTree = "<group>"; };
 		5D07E59629482A4C00BFFCF1 /* Carousell_CollectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousell_CollectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D4E44C92948465700F39582 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		5D4E44CB29484E5B00F39582 /* TileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				5D07E57029482A4A00BFFCF1 /* AppDelegate.swift */,
 				5D07E57229482A4A00BFFCF1 /* SceneDelegate.swift */,
 				5D07E57429482A4A00BFFCF1 /* ViewController.swift */,
+				5D4E44C92948465700F39582 /* CollectionTableViewCell.swift */,
+				5D4E44CB29484E5B00F39582 /* TileCollectionViewCell.swift */,
 				5D07E57629482A4A00BFFCF1 /* Main.storyboard */,
 				5D07E57C29482A4B00BFFCF1 /* Assets.xcassets */,
 				5D07E57E29482A4B00BFFCF1 /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D4E44CC29484E5B00F39582 /* TileCollectionViewCell.swift in Sources */,
+				5D4E44CA2948465700F39582 /* CollectionTableViewCell.swift in Sources */,
 				5D07E57529482A4A00BFFCF1 /* ViewController.swift in Sources */,
 				5D07E57B29482A4A00BFFCF1 /* Carousell_CollectionView.xcdatamodeld in Sources */,
 				5D07E57129482A4A00BFFCF1 /* AppDelegate.swift in Sources */,
